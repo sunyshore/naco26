@@ -1,5 +1,16 @@
 # naco26
 
 ## MLP
-To run, import the notebook directly into a Kaggle environment, then add the BirdCLEF+ 2026 data. The entire notebook should run in this way. For 19-species MLP, ensure the T4 GPU accelerator is selected.
+To run, import any of the MLP notebooks directly into a Kaggle environment, then add the BirdCLEF+ 2026 data. For 19-species MLP, ensure the T4 GPU accelerator is selected. The entire notebook should run fully; the following output denotes the start of evolutionary computation.
+```
+Inner classifier swapped to PyTorch MLPClassifier(16,) solver=Adam max_iter=200
+Using GPU: True (device: cuda)
+
+Run name: kaggle_mlp_geo_temporal_pytorch_n10_seeds5_thresh2_20260612_011424
+Run dir : /kaggle/working/results/runs/kaggle_mlp_geo_temporal_pytorch_n10_seeds5_thresh2_20260612_011424
+
+=== Seed 42 ===
+  baselines...
+```
+
 ![gpu and data settings](./images/gpu.png)

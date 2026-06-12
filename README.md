@@ -4,7 +4,6 @@
 To run, import any of the MLP notebooks directly into a Kaggle environment, then add the BirdCLEF+ 2026 data. For 19-species MLP, ensure the T4 GPU accelerator is selected.
 - MLP-5 is the 5 species experiment
 - MLP-19 is the 19 species experiment
-- MLPGEO-19 is the 19 species experiment with geotemporal features
 
 The entire notebook should run fully; the following output denotes the start of evolutionary computation.
 ```
